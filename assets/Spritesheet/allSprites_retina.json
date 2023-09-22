@@ -1,0 +1,2433 @@
+{
+  "barrelBlack_side.png": {
+    "name": "barrelBlack_side.png",
+    "pos": {
+      "x": 1016,
+      "y": 510
+    },
+    "width": 40,
+    "height": 56,
+    "origin": {
+      "x": 20.0,
+      "y": 28.0
+    }
+  },
+  "barrelBlack_top.png": {
+    "name": "barrelBlack_top.png",
+    "pos": {
+      "x": 1014,
+      "y": 1032
+    },
+    "width": 48,
+    "height": 48,
+    "origin": {
+      "x": 24.0,
+      "y": 24.0
+    }
+  },
+  "barrelGreen_side.png": {
+    "name": "barrelGreen_side.png",
+    "pos": {
+      "x": 1024,
+      "y": 0
+    },
+    "width": 40,
+    "height": 56,
+    "origin": {
+      "x": 20.0,
+      "y": 28.0
+    }
+  },
+  "barrelGreen_top.png": {
+    "name": "barrelGreen_top.png",
+    "pos": {
+      "x": 1012,
+      "y": 809
+    },
+    "width": 48,
+    "height": 48,
+    "origin": {
+      "x": 24.0,
+      "y": 24.0
+    }
+  },
+  "barrelRed_side.png": {
+    "name": "barrelRed_side.png",
+    "pos": {
+      "x": 828,
+      "y": 740
+    },
+    "width": 40,
+    "height": 56,
+    "origin": {
+      "x": 20.0,
+      "y": 28.0
+    }
+  },
+  "barrelRed_top.png": {
+    "name": "barrelRed_top.png",
+    "pos": {
+      "x": 1014,
+      "y": 984
+    },
+    "width": 48,
+    "height": 48,
+    "origin": {
+      "x": 24.0,
+      "y": 24.0
+    }
+  },
+  "barrelRust_side.png": {
+    "name": "barrelRust_side.png",
+    "pos": {
+      "x": 1016,
+      "y": 753
+    },
+    "width": 40,
+    "height": 56,
+    "origin": {
+      "x": 20.0,
+      "y": 28.0
+    }
+  },
+  "barrelRust_top.png": {
+    "name": "barrelRust_top.png",
+    "pos": {
+      "x": 1014,
+      "y": 936
+    },
+    "width": 48,
+    "height": 48,
+    "origin": {
+      "x": 24.0,
+      "y": 24.0
+    }
+  },
+  "barricadeMetal.png": {
+    "name": "barricadeMetal.png",
+    "pos": {
+      "x": 958,
+      "y": 936
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "barricadeWood.png": {
+    "name": "barricadeWood.png",
+    "pos": {
+      "x": 958,
+      "y": 1048
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "bulletBlue1.png": {
+    "name": "bulletBlue1.png",
+    "pos": {
+      "x": 1006,
+      "y": 1104
+    },
+    "width": 8,
+    "height": 20,
+    "origin": {
+      "x": 4.0,
+      "y": 10.0
+    }
+  },
+  "bulletBlue1_outline.png": {
+    "name": "bulletBlue1_outline.png",
+    "pos": {
+      "x": 1106,
+      "y": 1069
+    },
+    "width": 16,
+    "height": 28,
+    "origin": {
+      "x": 8.0,
+      "y": 14.0
+    }
+  },
+  "bulletBlue2.png": {
+    "name": "bulletBlue2.png",
+    "pos": {
+      "x": 990,
+      "y": 1104
+    },
+    "width": 16,
+    "height": 24,
+    "origin": {
+      "x": 8.0,
+      "y": 12.0
+    }
+  },
+  "bulletBlue2_outline.png": {
+    "name": "bulletBlue2_outline.png",
+    "pos": {
+      "x": 1026,
+      "y": 705
+    },
+    "width": 24,
+    "height": 32,
+    "origin": {
+      "x": 12.0,
+      "y": 16.0
+    }
+  },
+  "bulletBlue3.png": {
+    "name": "bulletBlue3.png",
+    "pos": {
+      "x": 870,
+      "y": 465
+    },
+    "width": 8,
+    "height": 28,
+    "origin": {
+      "x": 4.0,
+      "y": 14.0
+    }
+  },
+  "bulletBlue3_outline.png": {
+    "name": "bulletBlue3_outline.png",
+    "pos": {
+      "x": 1107,
+      "y": 240
+    },
+    "width": 16,
+    "height": 36,
+    "origin": {
+      "x": 8.0,
+      "y": 18.0
+    }
+  },
+  "bulletDark1.png": {
+    "name": "bulletDark1.png",
+    "pos": {
+      "x": 228,
+      "y": 1024
+    },
+    "width": 8,
+    "height": 20,
+    "origin": {
+      "x": 4.0,
+      "y": 10.0
+    }
+  },
+  "bulletDark1_outline.png": {
+    "name": "bulletDark1_outline.png",
+    "pos": {
+      "x": 1106,
+      "y": 1097
+    },
+    "width": 16,
+    "height": 28,
+    "origin": {
+      "x": 8.0,
+      "y": 14.0
+    }
+  },
+  "bulletDark2.png": {
+    "name": "bulletDark2.png",
+    "pos": {
+      "x": 974,
+      "y": 1104
+    },
+    "width": 16,
+    "height": 24,
+    "origin": {
+      "x": 8.0,
+      "y": 12.0
+    }
+  },
+  "bulletDark2_outline.png": {
+    "name": "bulletDark2_outline.png",
+    "pos": {
+      "x": 1085,
+      "y": 654
+    },
+    "width": 24,
+    "height": 32,
+    "origin": {
+      "x": 12.0,
+      "y": 16.0
+    }
+  },
+  "bulletDark3.png": {
+    "name": "bulletDark3.png",
+    "pos": {
+      "x": 1024,
+      "y": 158
+    },
+    "width": 8,
+    "height": 28,
+    "origin": {
+      "x": 4.0,
+      "y": 14.0
+    }
+  },
+  "bulletDark3_outline.png": {
+    "name": "bulletDark3_outline.png",
+    "pos": {
+      "x": 1106,
+      "y": 492
+    },
+    "width": 16,
+    "height": 36,
+    "origin": {
+      "x": 8.0,
+      "y": 18.0
+    }
+  },
+  "bulletGreen1.png": {
+    "name": "bulletGreen1.png",
+    "pos": {
+      "x": 308,
+      "y": 1104
+    },
+    "width": 8,
+    "height": 20,
+    "origin": {
+      "x": 4.0,
+      "y": 10.0
+    }
+  },
+  "bulletGreen1_outline.png": {
+    "name": "bulletGreen1_outline.png",
+    "pos": {
+      "x": 1106,
+      "y": 412
+    },
+    "width": 16,
+    "height": 28,
+    "origin": {
+      "x": 8.0,
+      "y": 14.0
+    }
+  },
+  "bulletGreen2.png": {
+    "name": "bulletGreen2.png",
+    "pos": {
+      "x": 684,
+      "y": 1099
+    },
+    "width": 16,
+    "height": 24,
+    "origin": {
+      "x": 8.0,
+      "y": 12.0
+    }
+  },
+  "bulletGreen2_outline.png": {
+    "name": "bulletGreen2_outline.png",
+    "pos": {
+      "x": 1066,
+      "y": 1069
+    },
+    "width": 24,
+    "height": 32,
+    "origin": {
+      "x": 12.0,
+      "y": 16.0
+    }
+  },
+  "bulletGreen3.png": {
+    "name": "bulletGreen3.png",
+    "pos": {
+      "x": 700,
+      "y": 1099
+    },
+    "width": 8,
+    "height": 28,
+    "origin": {
+      "x": 4.0,
+      "y": 14.0
+    }
+  },
+  "bulletGreen3_outline.png": {
+    "name": "bulletGreen3_outline.png",
+    "pos": {
+      "x": 1105,
+      "y": 204
+    },
+    "width": 16,
+    "height": 36,
+    "origin": {
+      "x": 8.0,
+      "y": 18.0
+    }
+  },
+  "bulletRed1.png": {
+    "name": "bulletRed1.png",
+    "pos": {
+      "x": 236,
+      "y": 1024
+    },
+    "width": 8,
+    "height": 20,
+    "origin": {
+      "x": 4.0,
+      "y": 10.0
+    }
+  },
+  "bulletRed1_outline.png": {
+    "name": "bulletRed1_outline.png",
+    "pos": {
+      "x": 668,
+      "y": 1099
+    },
+    "width": 16,
+    "height": 28,
+    "origin": {
+      "x": 8.0,
+      "y": 14.0
+    }
+  },
+  "bulletRed2.png": {
+    "name": "bulletRed2.png",
+    "pos": {
+      "x": 958,
+      "y": 1104
+    },
+    "width": 16,
+    "height": 24,
+    "origin": {
+      "x": 8.0,
+      "y": 12.0
+    }
+  },
+  "bulletRed2_outline.png": {
+    "name": "bulletRed2_outline.png",
+    "pos": {
+      "x": 1061,
+      "y": 654
+    },
+    "width": 24,
+    "height": 32,
+    "origin": {
+      "x": 12.0,
+      "y": 16.0
+    }
+  },
+  "bulletRed3.png": {
+    "name": "bulletRed3.png",
+    "pos": {
+      "x": 308,
+      "y": 1076
+    },
+    "width": 8,
+    "height": 28,
+    "origin": {
+      "x": 4.0,
+      "y": 14.0
+    }
+  },
+  "bulletRed3_outline.png": {
+    "name": "bulletRed3_outline.png",
+    "pos": {
+      "x": 1064,
+      "y": 60
+    },
+    "width": 16,
+    "height": 36,
+    "origin": {
+      "x": 8.0,
+      "y": 18.0
+    }
+  },
+  "bulletSand1.png": {
+    "name": "bulletSand1.png",
+    "pos": {
+      "x": 212,
+      "y": 1108
+    },
+    "width": 8,
+    "height": 20,
+    "origin": {
+      "x": 4.0,
+      "y": 10.0
+    }
+  },
+  "bulletSand1_outline.png": {
+    "name": "bulletSand1_outline.png",
+    "pos": {
+      "x": 652,
+      "y": 1099
+    },
+    "width": 16,
+    "height": 28,
+    "origin": {
+      "x": 8.0,
+      "y": 14.0
+    }
+  },
+  "bulletSand2.png": {
+    "name": "bulletSand2.png",
+    "pos": {
+      "x": 1090,
+      "y": 518
+    },
+    "width": 16,
+    "height": 24,
+    "origin": {
+      "x": 8.0,
+      "y": 12.0
+    }
+  },
+  "bulletSand2_outline.png": {
+    "name": "bulletSand2_outline.png",
+    "pos": {
+      "x": 1084,
+      "y": 120
+    },
+    "width": 24,
+    "height": 32,
+    "origin": {
+      "x": 12.0,
+      "y": 16.0
+    }
+  },
+  "bulletSand3.png": {
+    "name": "bulletSand3.png",
+    "pos": {
+      "x": 952,
+      "y": 753
+    },
+    "width": 8,
+    "height": 28,
+    "origin": {
+      "x": 4.0,
+      "y": 14.0
+    }
+  },
+  "bulletSand3_outline.png": {
+    "name": "bulletSand3_outline.png",
+    "pos": {
+      "x": 930,
+      "y": 569
+    },
+    "width": 16,
+    "height": 36,
+    "origin": {
+      "x": 8.0,
+      "y": 18.0
+    }
+  },
+  "crateMetal.png": {
+    "name": "crateMetal.png",
+    "pos": {
+      "x": 958,
+      "y": 992
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "crateMetal_side.png": {
+    "name": "crateMetal_side.png",
+    "pos": {
+      "x": 960,
+      "y": 434
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "crateWood.png": {
+    "name": "crateWood.png",
+    "pos": {
+      "x": 960,
+      "y": 753
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "crateWood_side.png": {
+    "name": "crateWood_side.png",
+    "pos": {
+      "x": 960,
+      "y": 490
+    },
+    "width": 56,
+    "height": 56,
+    "origin": {
+      "x": 28.0,
+      "y": 28.0
+    }
+  },
+  "explosion1.png": {
+    "name": "explosion1.png",
+    "pos": {
+      "x": 640,
+      "y": 804
+    },
+    "width": 120,
+    "height": 120,
+    "origin": {
+      "x": 60.0,
+      "y": 60.0
+    }
+  },
+  "explosion2.png": {
+    "name": "explosion2.png",
+    "pos": {
+      "x": 764,
+      "y": 508
+    },
+    "width": 114,
+    "height": 112,
+    "origin": {
+      "x": 57.0,
+      "y": 56.0
+    }
+  },
+  "explosion3.png": {
+    "name": "explosion3.png",
+    "pos": {
+      "x": 640,
+      "y": 256
+    },
+    "width": 127,
+    "height": 126,
+    "origin": {
+      "x": 63.5,
+      "y": 63.0
+    }
+  },
+  "explosion4.png": {
+    "name": "explosion4.png",
+    "pos": {
+      "x": 860,
+      "y": 96
+    },
+    "width": 92,
+    "height": 90,
+    "origin": {
+      "x": 46.0,
+      "y": 45.0
+    }
+  },
+  "explosion5.png": {
+    "name": "explosion5.png",
+    "pos": {
+      "x": 0,
+      "y": 1024
+    },
+    "width": 106,
+    "height": 104,
+    "origin": {
+      "x": 53.0,
+      "y": 52.0
+    }
+  },
+  "explosionSmoke1.png": {
+    "name": "explosionSmoke1.png",
+    "pos": {
+      "x": 640,
+      "y": 924
+    },
+    "width": 120,
+    "height": 120,
+    "origin": {
+      "x": 60.0,
+      "y": 60.0
+    }
+  },
+  "explosionSmoke2.png": {
+    "name": "explosionSmoke2.png",
+    "pos": {
+      "x": 760,
+      "y": 940
+    },
+    "width": 114,
+    "height": 112,
+    "origin": {
+      "x": 57.0,
+      "y": 56.0
+    }
+  },
+  "explosionSmoke3.png": {
+    "name": "explosionSmoke3.png",
+    "pos": {
+      "x": 640,
+      "y": 382
+    },
+    "width": 126,
+    "height": 126,
+    "origin": {
+      "x": 63.0,
+      "y": 63.0
+    }
+  },
+  "explosionSmoke4.png": {
+    "name": "explosionSmoke4.png",
+    "pos": {
+      "x": 768,
+      "y": 96
+    },
+    "width": 92,
+    "height": 90,
+    "origin": {
+      "x": 46.0,
+      "y": 45.0
+    }
+  },
+  "explosionSmoke5.png": {
+    "name": "explosionSmoke5.png",
+    "pos": {
+      "x": 106,
+      "y": 1024
+    },
+    "width": 106,
+    "height": 104,
+    "origin": {
+      "x": 53.0,
+      "y": 52.0
+    }
+  },
+  "fenceRed.png": {
+    "name": "fenceRed.png",
+    "pos": {
+      "x": 212,
+      "y": 1076
+    },
+    "width": 96,
+    "height": 32,
+    "origin": {
+      "x": 48.0,
+      "y": 16.0
+    }
+  },
+  "fenceYellow.png": {
+    "name": "fenceYellow.png",
+    "pos": {
+      "x": 212,
+      "y": 1044
+    },
+    "width": 104,
+    "height": 32,
+    "origin": {
+      "x": 52.0,
+      "y": 16.0
+    }
+  },
+  "oilSpill_large.png": {
+    "name": "oilSpill_large.png",
+    "pos": {
+      "x": 524,
+      "y": 1024
+    },
+    "width": 100,
+    "height": 100,
+    "origin": {
+      "x": 50.0,
+      "y": 50.0
+    }
+  },
+  "oilSpill_small.png": {
+    "name": "oilSpill_small.png",
+    "pos": {
+      "x": 624,
+      "y": 1099
+    },
+    "width": 28,
+    "height": 28,
+    "origin": {
+      "x": 14.0,
+      "y": 14.0
+    }
+  },
+  "sandbagBeige.png": {
+    "name": "sandbagBeige.png",
+    "pos": {
+      "x": 768,
+      "y": 186
+    },
+    "width": 64,
+    "height": 44,
+    "origin": {
+      "x": 32.0,
+      "y": 22.0
+    }
+  },
+  "sandbagBeige_open.png": {
+    "name": "sandbagBeige_open.png",
+    "pos": {
+      "x": 624,
+      "y": 1044
+    },
+    "width": 84,
+    "height": 55,
+    "origin": {
+      "x": 42.0,
+      "y": 27.5
+    }
+  },
+  "sandbagBrown.png": {
+    "name": "sandbagBrown.png",
+    "pos": {
+      "x": 764,
+      "y": 740
+    },
+    "width": 64,
+    "height": 44,
+    "origin": {
+      "x": 32.0,
+      "y": 22.0
+    }
+  },
+  "sandbagBrown_open.png": {
+    "name": "sandbagBrown_open.png",
+    "pos": {
+      "x": 708,
+      "y": 1052
+    },
+    "width": 84,
+    "height": 55,
+    "origin": {
+      "x": 42.0,
+      "y": 27.5
+    }
+  },
+  "shotLarge.png": {
+    "name": "shotLarge.png",
+    "pos": {
+      "x": 1024,
+      "y": 56
+    },
+    "width": 40,
+    "height": 50,
+    "origin": {
+      "x": 20.0,
+      "y": 25.0
+    }
+  },
+  "shotOrange.png": {
+    "name": "shotOrange.png",
+    "pos": {
+      "x": 1033,
+      "y": 214
+    },
+    "width": 32,
+    "height": 56,
+    "origin": {
+      "x": 16.0,
+      "y": 28.0
+    }
+  },
+  "shotRed.png": {
+    "name": "shotRed.png",
+    "pos": {
+      "x": 1016,
+      "y": 434
+    },
+    "width": 42,
+    "height": 76,
+    "origin": {
+      "x": 21.0,
+      "y": 38.0
+    }
+  },
+  "shotThin.png": {
+    "name": "shotThin.png",
+    "pos": {
+      "x": 1106,
+      "y": 440
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "specialBarrel1.png": {
+    "name": "specialBarrel1.png",
+    "pos": {
+      "x": 1014,
+      "y": 1080
+    },
+    "width": 28,
+    "height": 44,
+    "origin": {
+      "x": 14.0,
+      "y": 22.0
+    }
+  },
+  "specialBarrel1_outline.png": {
+    "name": "specialBarrel1_outline.png",
+    "pos": {
+      "x": 1024,
+      "y": 106
+    },
+    "width": 36,
+    "height": 52,
+    "origin": {
+      "x": 18.0,
+      "y": 26.0
+    }
+  },
+  "specialBarrel2.png": {
+    "name": "specialBarrel2.png",
+    "pos": {
+      "x": 1042,
+      "y": 1080
+    },
+    "width": 24,
+    "height": 48,
+    "origin": {
+      "x": 12.0,
+      "y": 24.0
+    }
+  },
+  "specialBarrel2_outline.png": {
+    "name": "specialBarrel2_outline.png",
+    "pos": {
+      "x": 1033,
+      "y": 158
+    },
+    "width": 32,
+    "height": 56,
+    "origin": {
+      "x": 16.0,
+      "y": 28.0
+    }
+  },
+  "specialBarrel3.png": {
+    "name": "specialBarrel3.png",
+    "pos": {
+      "x": 1088,
+      "y": 0
+    },
+    "width": 20,
+    "height": 56,
+    "origin": {
+      "x": 10.0,
+      "y": 28.0
+    }
+  },
+  "specialBarrel3_outline.png": {
+    "name": "specialBarrel3_outline.png",
+    "pos": {
+      "x": 832,
+      "y": 186
+    },
+    "width": 28,
+    "height": 64,
+    "origin": {
+      "x": 14.0,
+      "y": 32.0
+    }
+  },
+  "specialBarrel4.png": {
+    "name": "specialBarrel4.png",
+    "pos": {
+      "x": 1088,
+      "y": 746
+    },
+    "width": 20,
+    "height": 64,
+    "origin": {
+      "x": 10.0,
+      "y": 32.0
+    }
+  },
+  "specialBarrel4_outline.png": {
+    "name": "specialBarrel4_outline.png",
+    "pos": {
+      "x": 1060,
+      "y": 765
+    },
+    "width": 28,
+    "height": 72,
+    "origin": {
+      "x": 14.0,
+      "y": 36.0
+    }
+  },
+  "specialBarrel5.png": {
+    "name": "specialBarrel5.png",
+    "pos": {
+      "x": 1060,
+      "y": 106
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "specialBarrel5_outline.png": {
+    "name": "specialBarrel5_outline.png",
+    "pos": {
+      "x": 1058,
+      "y": 362
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "specialBarrel6.png": {
+    "name": "specialBarrel6.png",
+    "pos": {
+      "x": 1089,
+      "y": 152
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "specialBarrel6_outline.png": {
+    "name": "specialBarrel6_outline.png",
+    "pos": {
+      "x": 1062,
+      "y": 897
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "specialBarrel7.png": {
+    "name": "specialBarrel7.png",
+    "pos": {
+      "x": 1106,
+      "y": 360
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "specialBarrel7_outline.png": {
+    "name": "specialBarrel7_outline.png",
+    "pos": {
+      "x": 1062,
+      "y": 1009
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankBlue_barrel1.png": {
+    "name": "tankBlue_barrel1.png",
+    "pos": {
+      "x": 1086,
+      "y": 957
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "tankBlue_barrel1_outline.png": {
+    "name": "tankBlue_barrel1_outline.png",
+    "pos": {
+      "x": 1058,
+      "y": 422
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "tankBlue_barrel2.png": {
+    "name": "tankBlue_barrel2.png",
+    "pos": {
+      "x": 1090,
+      "y": 1069
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankBlue_barrel2_outline.png": {
+    "name": "tankBlue_barrel2_outline.png",
+    "pos": {
+      "x": 1060,
+      "y": 837
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankBlue_barrel3.png": {
+    "name": "tankBlue_barrel3.png",
+    "pos": {
+      "x": 1090,
+      "y": 466
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankBlue_barrel3_outline.png": {
+    "name": "tankBlue_barrel3_outline.png",
+    "pos": {
+      "x": 1061,
+      "y": 542
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankBody_bigRed.png": {
+    "name": "tankBody_bigRed.png",
+    "pos": {
+      "x": 768,
+      "y": 0
+    },
+    "width": 96,
+    "height": 96,
+    "origin": {
+      "x": 48.0,
+      "y": 48.0
+    }
+  },
+  "tankBody_bigRed_outline.png": {
+    "name": "tankBody_bigRed_outline.png",
+    "pos": {
+      "x": 420,
+      "y": 1024
+    },
+    "width": 104,
+    "height": 104,
+    "origin": {
+      "x": 52.0,
+      "y": 52.0
+    }
+  },
+  "tankBody_blue.png": {
+    "name": "tankBody_blue.png",
+    "pos": {
+      "x": 792,
+      "y": 1052
+    },
+    "width": 76,
+    "height": 76,
+    "origin": {
+      "x": 38.0,
+      "y": 38.0
+    }
+  },
+  "tankBody_blue_outline.png": {
+    "name": "tankBody_blue_outline.png",
+    "pos": {
+      "x": 868,
+      "y": 620
+    },
+    "width": 84,
+    "height": 84,
+    "origin": {
+      "x": 42.0,
+      "y": 42.0
+    }
+  },
+  "tankBody_dark.png": {
+    "name": "tankBody_dark.png",
+    "pos": {
+      "x": 876,
+      "y": 864
+    },
+    "width": 76,
+    "height": 72,
+    "origin": {
+      "x": 38.0,
+      "y": 36.0
+    }
+  },
+  "tankBody_darkLarge.png": {
+    "name": "tankBody_darkLarge.png",
+    "pos": {
+      "x": 767,
+      "y": 256
+    },
+    "width": 96,
+    "height": 112,
+    "origin": {
+      "x": 48.0,
+      "y": 56.0
+    }
+  },
+  "tankBody_darkLarge_outline.png": {
+    "name": "tankBody_darkLarge_outline.png",
+    "pos": {
+      "x": 764,
+      "y": 620
+    },
+    "width": 104,
+    "height": 120,
+    "origin": {
+      "x": 52.0,
+      "y": 60.0
+    }
+  },
+  "tankBody_dark_outline.png": {
+    "name": "tankBody_dark_outline.png",
+    "pos": {
+      "x": 868,
+      "y": 704
+    },
+    "width": 84,
+    "height": 80,
+    "origin": {
+      "x": 42.0,
+      "y": 40.0
+    }
+  },
+  "tankBody_green.png": {
+    "name": "tankBody_green.png",
+    "pos": {
+      "x": 947,
+      "y": 290
+    },
+    "width": 76,
+    "height": 72,
+    "origin": {
+      "x": 38.0,
+      "y": 36.0
+    }
+  },
+  "tankBody_green_outline.png": {
+    "name": "tankBody_green_outline.png",
+    "pos": {
+      "x": 874,
+      "y": 1032
+    },
+    "width": 84,
+    "height": 80,
+    "origin": {
+      "x": 42.0,
+      "y": 40.0
+    }
+  },
+  "tankBody_huge.png": {
+    "name": "tankBody_huge.png",
+    "pos": {
+      "x": 760,
+      "y": 804
+    },
+    "width": 116,
+    "height": 136,
+    "origin": {
+      "x": 58.0,
+      "y": 68.0
+    }
+  },
+  "tankBody_huge_outline.png": {
+    "name": "tankBody_huge_outline.png",
+    "pos": {
+      "x": 640,
+      "y": 660
+    },
+    "width": 124,
+    "height": 144,
+    "origin": {
+      "x": 62.0,
+      "y": 72.0
+    }
+  },
+  "tankBody_red.png": {
+    "name": "tankBody_red.png",
+    "pos": {
+      "x": 1023,
+      "y": 290
+    },
+    "width": 68,
+    "height": 72,
+    "origin": {
+      "x": 34.0,
+      "y": 36.0
+    }
+  },
+  "tankBody_red_outline.png": {
+    "name": "tankBody_red_outline.png",
+    "pos": {
+      "x": 952,
+      "y": 569
+    },
+    "width": 76,
+    "height": 80,
+    "origin": {
+      "x": 38.0,
+      "y": 40.0
+    }
+  },
+  "tankBody_sand.png": {
+    "name": "tankBody_sand.png",
+    "pos": {
+      "x": 952,
+      "y": 864
+    },
+    "width": 76,
+    "height": 72,
+    "origin": {
+      "x": 38.0,
+      "y": 36.0
+    }
+  },
+  "tankBody_sand_outline.png": {
+    "name": "tankBody_sand_outline.png",
+    "pos": {
+      "x": 876,
+      "y": 784
+    },
+    "width": 84,
+    "height": 80,
+    "origin": {
+      "x": 42.0,
+      "y": 40.0
+    }
+  },
+  "tankDark_barrel1.png": {
+    "name": "tankDark_barrel1.png",
+    "pos": {
+      "x": 1085,
+      "y": 602
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "tankDark_barrel1_outline.png": {
+    "name": "tankDark_barrel1_outline.png",
+    "pos": {
+      "x": 1056,
+      "y": 705
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "tankDark_barrel2.png": {
+    "name": "tankDark_barrel2.png",
+    "pos": {
+      "x": 1091,
+      "y": 308
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankDark_barrel2_outline.png": {
+    "name": "tankDark_barrel2_outline.png",
+    "pos": {
+      "x": 1084,
+      "y": 837
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankDark_barrel3.png": {
+    "name": "tankDark_barrel3.png",
+    "pos": {
+      "x": 1107,
+      "y": 276
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankDark_barrel3_outline.png": {
+    "name": "tankDark_barrel3_outline.png",
+    "pos": {
+      "x": 1065,
+      "y": 210
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankGreen_barrel1.png": {
+    "name": "tankGreen_barrel1.png",
+    "pos": {
+      "x": 1062,
+      "y": 957
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "tankGreen_barrel1_outline.png": {
+    "name": "tankGreen_barrel1_outline.png",
+    "pos": {
+      "x": 1028,
+      "y": 857
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "tankGreen_barrel2.png": {
+    "name": "tankGreen_barrel2.png",
+    "pos": {
+      "x": 1108,
+      "y": 746
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankGreen_barrel2_outline.png": {
+    "name": "tankGreen_barrel2_outline.png",
+    "pos": {
+      "x": 1086,
+      "y": 897
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankGreen_barrel3.png": {
+    "name": "tankGreen_barrel3.png",
+    "pos": {
+      "x": 1089,
+      "y": 204
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankGreen_barrel3_outline.png": {
+    "name": "tankGreen_barrel3_outline.png",
+    "pos": {
+      "x": 1086,
+      "y": 1009
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankRed_barrel1.png": {
+    "name": "tankRed_barrel1.png",
+    "pos": {
+      "x": 1061,
+      "y": 602
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "tankRed_barrel1_outline.png": {
+    "name": "tankRed_barrel1_outline.png",
+    "pos": {
+      "x": 1026,
+      "y": 362
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "tankRed_barrel2.png": {
+    "name": "tankRed_barrel2.png",
+    "pos": {
+      "x": 1090,
+      "y": 414
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankRed_barrel2_outline.png": {
+    "name": "tankRed_barrel2_outline.png",
+    "pos": {
+      "x": 1085,
+      "y": 542
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankRed_barrel3.png": {
+    "name": "tankRed_barrel3.png",
+    "pos": {
+      "x": 1090,
+      "y": 362
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankRed_barrel3_outline.png": {
+    "name": "tankRed_barrel3_outline.png",
+    "pos": {
+      "x": 1088,
+      "y": 686
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankSand_barrel1.png": {
+    "name": "tankSand_barrel1.png",
+    "pos": {
+      "x": 1065,
+      "y": 158
+    },
+    "width": 24,
+    "height": 52,
+    "origin": {
+      "x": 12.0,
+      "y": 26.0
+    }
+  },
+  "tankSand_barrel1_outline.png": {
+    "name": "tankSand_barrel1_outline.png",
+    "pos": {
+      "x": 1058,
+      "y": 482
+    },
+    "width": 32,
+    "height": 60,
+    "origin": {
+      "x": 16.0,
+      "y": 30.0
+    }
+  },
+  "tankSand_barrel2.png": {
+    "name": "tankSand_barrel2.png",
+    "pos": {
+      "x": 1105,
+      "y": 152
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankSand_barrel2_outline.png": {
+    "name": "tankSand_barrel2_outline.png",
+    "pos": {
+      "x": 1064,
+      "y": 0
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tankSand_barrel3.png": {
+    "name": "tankSand_barrel3.png",
+    "pos": {
+      "x": 1091,
+      "y": 256
+    },
+    "width": 16,
+    "height": 52,
+    "origin": {
+      "x": 8.0,
+      "y": 26.0
+    }
+  },
+  "tankSand_barrel3_outline.png": {
+    "name": "tankSand_barrel3_outline.png",
+    "pos": {
+      "x": 1084,
+      "y": 60
+    },
+    "width": 24,
+    "height": 60,
+    "origin": {
+      "x": 12.0,
+      "y": 30.0
+    }
+  },
+  "tank_bigRed.png": {
+    "name": "tank_bigRed.png",
+    "pos": {
+      "x": 316,
+      "y": 1024
+    },
+    "width": 104,
+    "height": 104,
+    "origin": {
+      "x": 52.0,
+      "y": 52.0
+    }
+  },
+  "tank_blue.png": {
+    "name": "tank_blue.png",
+    "pos": {
+      "x": 874,
+      "y": 940
+    },
+    "width": 84,
+    "height": 92,
+    "origin": {
+      "x": 42.0,
+      "y": 46.0
+    }
+  },
+  "tank_dark.png": {
+    "name": "tank_dark.png",
+    "pos": {
+      "x": 870,
+      "y": 373
+    },
+    "width": 84,
+    "height": 92,
+    "origin": {
+      "x": 42.0,
+      "y": 46.0
+    }
+  },
+  "tank_darkLarge.png": {
+    "name": "tank_darkLarge.png",
+    "pos": {
+      "x": 766,
+      "y": 382
+    },
+    "width": 104,
+    "height": 120,
+    "origin": {
+      "x": 52.0,
+      "y": 60.0
+    }
+  },
+  "tank_green.png": {
+    "name": "tank_green.png",
+    "pos": {
+      "x": 864,
+      "y": 0
+    },
+    "width": 84,
+    "height": 92,
+    "origin": {
+      "x": 42.0,
+      "y": 46.0
+    }
+  },
+  "tank_huge.png": {
+    "name": "tank_huge.png",
+    "pos": {
+      "x": 640,
+      "y": 508
+    },
+    "width": 124,
+    "height": 152,
+    "origin": {
+      "x": 62.0,
+      "y": 76.0
+    }
+  },
+  "tank_red.png": {
+    "name": "tank_red.png",
+    "pos": {
+      "x": 948,
+      "y": 0
+    },
+    "width": 76,
+    "height": 92,
+    "origin": {
+      "x": 38.0,
+      "y": 46.0
+    }
+  },
+  "tank_sand.png": {
+    "name": "tank_sand.png",
+    "pos": {
+      "x": 863,
+      "y": 281
+    },
+    "width": 84,
+    "height": 92,
+    "origin": {
+      "x": 42.0,
+      "y": 46.0
+    }
+  },
+  "tileGrass1.png": {
+    "name": "tileGrass1.png",
+    "pos": {
+      "x": 384,
+      "y": 896
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass2.png": {
+    "name": "tileGrass2.png",
+    "pos": {
+      "x": 384,
+      "y": 256
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCornerLL.png": {
+    "name": "tileGrass_roadCornerLL.png",
+    "pos": {
+      "x": 0,
+      "y": 512
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCornerLR.png": {
+    "name": "tileGrass_roadCornerLR.png",
+    "pos": {
+      "x": 0,
+      "y": 640
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCornerUL.png": {
+    "name": "tileGrass_roadCornerUL.png",
+    "pos": {
+      "x": 128,
+      "y": 256
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCornerUR.png": {
+    "name": "tileGrass_roadCornerUR.png",
+    "pos": {
+      "x": 128,
+      "y": 384
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCrossing.png": {
+    "name": "tileGrass_roadCrossing.png",
+    "pos": {
+      "x": 128,
+      "y": 640
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadCrossingRound.png": {
+    "name": "tileGrass_roadCrossingRound.png",
+    "pos": {
+      "x": 384,
+      "y": 512
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadEast.png": {
+    "name": "tileGrass_roadEast.png",
+    "pos": {
+      "x": 0,
+      "y": 768
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadNorth.png": {
+    "name": "tileGrass_roadNorth.png",
+    "pos": {
+      "x": 128,
+      "y": 896
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadSplitE.png": {
+    "name": "tileGrass_roadSplitE.png",
+    "pos": {
+      "x": 128,
+      "y": 768
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadSplitN.png": {
+    "name": "tileGrass_roadSplitN.png",
+    "pos": {
+      "x": 384,
+      "y": 384
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadSplitS.png": {
+    "name": "tileGrass_roadSplitS.png",
+    "pos": {
+      "x": 384,
+      "y": 768
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadSplitW.png": {
+    "name": "tileGrass_roadSplitW.png",
+    "pos": {
+      "x": 512,
+      "y": 512
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionE.png": {
+    "name": "tileGrass_roadTransitionE.png",
+    "pos": {
+      "x": 512,
+      "y": 640
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionE_dirt.png": {
+    "name": "tileGrass_roadTransitionE_dirt.png",
+    "pos": {
+      "x": 512,
+      "y": 768
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionN.png": {
+    "name": "tileGrass_roadTransitionN.png",
+    "pos": {
+      "x": 512,
+      "y": 384
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionN_dirt.png": {
+    "name": "tileGrass_roadTransitionN_dirt.png",
+    "pos": {
+      "x": 640,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionS.png": {
+    "name": "tileGrass_roadTransitionS.png",
+    "pos": {
+      "x": 512,
+      "y": 896
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionS_dirt.png": {
+    "name": "tileGrass_roadTransitionS_dirt.png",
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionW.png": {
+    "name": "tileGrass_roadTransitionW.png",
+    "pos": {
+      "x": 0,
+      "y": 256
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_roadTransitionW_dirt.png": {
+    "name": "tileGrass_roadTransitionW_dirt.png",
+    "pos": {
+      "x": 0,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_transitionE.png": {
+    "name": "tileGrass_transitionE.png",
+    "pos": {
+      "x": 640,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_transitionN.png": {
+    "name": "tileGrass_transitionN.png",
+    "pos": {
+      "x": 512,
+      "y": 256
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_transitionS.png": {
+    "name": "tileGrass_transitionS.png",
+    "pos": {
+      "x": 512,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileGrass_transitionW.png": {
+    "name": "tileGrass_transitionW.png",
+    "pos": {
+      "x": 512,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand1.png": {
+    "name": "tileSand1.png",
+    "pos": {
+      "x": 256,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand2.png": {
+    "name": "tileSand2.png",
+    "pos": {
+      "x": 256,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCornerLL.png": {
+    "name": "tileSand_roadCornerLL.png",
+    "pos": {
+      "x": 384,
+      "y": 640
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCornerLR.png": {
+    "name": "tileSand_roadCornerLR.png",
+    "pos": {
+      "x": 0,
+      "y": 896
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCornerUL.png": {
+    "name": "tileSand_roadCornerUL.png",
+    "pos": {
+      "x": 128,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCornerUR.png": {
+    "name": "tileSand_roadCornerUR.png",
+    "pos": {
+      "x": 0,
+      "y": 384
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCrossing.png": {
+    "name": "tileSand_roadCrossing.png",
+    "pos": {
+      "x": 384,
+      "y": 128
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadCrossingRound.png": {
+    "name": "tileSand_roadCrossingRound.png",
+    "pos": {
+      "x": 384,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadEast.png": {
+    "name": "tileSand_roadEast.png",
+    "pos": {
+      "x": 256,
+      "y": 896
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadNorth.png": {
+    "name": "tileSand_roadNorth.png",
+    "pos": {
+      "x": 256,
+      "y": 768
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadSplitE.png": {
+    "name": "tileSand_roadSplitE.png",
+    "pos": {
+      "x": 256,
+      "y": 640
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadSplitN.png": {
+    "name": "tileSand_roadSplitN.png",
+    "pos": {
+      "x": 256,
+      "y": 512
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadSplitS.png": {
+    "name": "tileSand_roadSplitS.png",
+    "pos": {
+      "x": 256,
+      "y": 384
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tileSand_roadSplitW.png": {
+    "name": "tileSand_roadSplitW.png",
+    "pos": {
+      "x": 256,
+      "y": 256
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "tracksDouble.png": {
+    "name": "tracksDouble.png",
+    "pos": {
+      "x": 951,
+      "y": 186
+    },
+    "width": 82,
+    "height": 104,
+    "origin": {
+      "x": 41.0,
+      "y": 52.0
+    }
+  },
+  "tracksLarge.png": {
+    "name": "tracksLarge.png",
+    "pos": {
+      "x": 878,
+      "y": 465
+    },
+    "width": 82,
+    "height": 104,
+    "origin": {
+      "x": 41.0,
+      "y": 52.0
+    }
+  },
+  "tracksSmall.png": {
+    "name": "tracksSmall.png",
+    "pos": {
+      "x": 952,
+      "y": 649
+    },
+    "width": 74,
+    "height": 104,
+    "origin": {
+      "x": 37.0,
+      "y": 52.0
+    }
+  },
+  "treeBrown_large.png": {
+    "name": "treeBrown_large.png",
+    "pos": {
+      "x": 128,
+      "y": 512
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "treeBrown_leaf.png": {
+    "name": "treeBrown_leaf.png",
+    "pos": {
+      "x": 212,
+      "y": 1024
+    },
+    "width": 16,
+    "height": 20,
+    "origin": {
+      "x": 8.0,
+      "y": 10.0
+    }
+  },
+  "treeBrown_small.png": {
+    "name": "treeBrown_small.png",
+    "pos": {
+      "x": 952,
+      "y": 92
+    },
+    "width": 72,
+    "height": 72,
+    "origin": {
+      "x": 36.0,
+      "y": 36.0
+    }
+  },
+  "treeBrown_twigs.png": {
+    "name": "treeBrown_twigs.png",
+    "pos": {
+      "x": 878,
+      "y": 569
+    },
+    "width": 52,
+    "height": 44,
+    "origin": {
+      "x": 26.0,
+      "y": 22.0
+    }
+  },
+  "treeGreen_large.png": {
+    "name": "treeGreen_large.png",
+    "pos": {
+      "x": 128,
+      "y": 0
+    },
+    "width": 128,
+    "height": 128,
+    "origin": {
+      "x": 64.0,
+      "y": 64.0
+    }
+  },
+  "treeGreen_leaf.png": {
+    "name": "treeGreen_leaf.png",
+    "pos": {
+      "x": 624,
+      "y": 1024
+    },
+    "width": 16,
+    "height": 20,
+    "origin": {
+      "x": 8.0,
+      "y": 10.0
+    }
+  },
+  "treeGreen_small.png": {
+    "name": "treeGreen_small.png",
+    "pos": {
+      "x": 954,
+      "y": 362
+    },
+    "width": 72,
+    "height": 72,
+    "origin": {
+      "x": 36.0,
+      "y": 36.0
+    }
+  },
+  "treeGreen_twigs.png": {
+    "name": "treeGreen_twigs.png",
+    "pos": {
+      "x": 960,
+      "y": 809
+    },
+    "width": 52,
+    "height": 44,
+    "origin": {
+      "x": 26.0,
+      "y": 22.0
+    }
+  },
+  "wireCrooked.png": {
+    "name": "wireCrooked.png",
+    "pos": {
+      "x": 863,
+      "y": 186
+    },
+    "width": 88,
+    "height": 95,
+    "origin": {
+      "x": 44.0,
+      "y": 47.5
+    }
+  },
+  "wireStraight.png": {
+    "name": "wireStraight.png",
+    "pos": {
+      "x": 1028,
+      "y": 566
+    },
+    "width": 33,
+    "height": 139,
+    "origin": {
+      "x": 16.5,
+      "y": 69.5
+    }
+  }
+}
