@@ -1,7 +1,8 @@
 const std = @import("std");
 const Alloc = std.mem.Allocator;
 
-const ID = u64;
+pub const ID = u64;
+
 pub const EntityManager = struct {
     const Self = @This();
 
@@ -45,7 +46,7 @@ pub fn ComponentManager(comptime ComponentT: type) type {
         const Self = @This();
         data: std.AutoArrayHashMap(ID, ComponentT),
 
-        pub fn init(alloc: Alloc) Self {
+        pub fn init(alloc: Alloc) !Self {
             return Self{ .data = std.AutoArrayHashMap(ID, ComponentT).init(alloc) };
         }
         pub fn deinit(self: *Self) void {
@@ -100,9 +101,9 @@ test "ECS" {
 
     var man_ent = EntityManager.init(alloc);
     defer man_ent.deinit();
-    var man_positions = ComponentManager(Vec2).init(alloc);
+    var man_positions = try ComponentManager(Vec2).init(alloc);
     defer man_positions.deinit();
-    var man_velocities = ComponentManager(Vec2).init(alloc);
+    var man_velocities = try ComponentManager(Vec2).init(alloc);
     defer man_velocities.deinit();
 
     const boid1 = try man_ent.create();

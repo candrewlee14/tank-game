@@ -3,6 +3,7 @@ const rl = @import("raylib");
 const tex = @import("tex.zig");
 const provider = @import("provider.zig");
 const main = @import("main.zig");
+const ecs = @import("ecs.zig");
 
 pub const Bullet = struct {
     const Self = @This();
@@ -117,6 +118,7 @@ pub const Barrel = struct {
 pub const Tank = struct {
     const Self = @This();
 
+    id: 
     input_obs: ?provider.Callback(void) = null,
     pos: rl.Vector2 = .{ .x = 100, .y = 100 },
     /// rotation in radians
@@ -128,8 +130,9 @@ pub const Tank = struct {
     tex_info: *const tex.Info,
     barrel: Barrel,
 
-    pub fn init(self: *Self, atlas: *const tex.Atlas) !void {
+    pub fn init(self: *Self, atlas: *const tex.Atlas, game: *const main.Game) !void {
         self.* = Self{
+            .id = try game.ents.create(),
             .tex_info = atlas.getInfo("tankBody_red_outline.png"),
             .barrel = undefined,
         };
