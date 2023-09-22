@@ -10,6 +10,7 @@ pub const Info = struct {
     width: f32,
     height: f32,
     origin: rl.Vector2,
+    rot_offset: f32 = -0.5 * std.math.pi,
 
     pub fn getSourceRect(self: *const Self) rl.Rectangle {
         return .{

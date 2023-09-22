@@ -3,9 +3,9 @@ const rl = @import("raylib");
 const tex = @import("tex.zig");
 // const tk = @import("tank.zig");
 const provider = @import("provider.zig");
-const ecs = @import("ecs.zig");
-const Systems = @import("systems.zig");
-const Components = @import("components.zig");
+const ecs = @import("ecs/mod.zig");
+const Systems = @import("ecs/systems/mod.zig").Systems;
+const Components = @import("ecs/components/mod.zig");
 
 const SCREEN_HEIGHT = 450;
 const SCREEN_WIDTH = 800;
@@ -67,14 +67,17 @@ pub fn main() anyerror!void {
     try game.init(alloc);
 
     const tank = try game.ents.create();
-    try game.components.pos.add(tank, .{ .x = 100, .y = 100 });
+    try game.components.trans.add(tank, .{ .local = .{ .pos = .{ .x = 100, .y = 100 } } });
     try game.components.speed.add(tank, 2);
-    try game.components.rot.add(tank, 0);
     try game.components.rot_speed.add(tank, 0.07);
-    try game.components.scale.add(tank, .{ .x = 1, .y = 1 });
-    try game.components.tex.add(tank, game.atlas.getInfo("tank_red.png"));
+    try game.components.tex.add(tank, game.atlas.getInfo("tankBody_red_outline.png"));
     try game.components.keyb.add(tank, {});
 
+    const barrel = try game.ents.create();
+    try game.components.trans.add(barrel, .{ .local = .{ .pos = .{ .x = 0, .y = 0 } }, .derived_rot = false });
+    try game.components.mouse.add(barrel, {});
+    try game.components.parent.add(barrel, tank);
+    try game.components.tex.add(barrel, game.atlas.getInfo("specialBarrel1_outline.png"));
     //--------------------------------------------------------------------------------------
 
     // Main game loop
