@@ -7,7 +7,7 @@ const std = @import("std");
 
 pub const Systems = extern struct {
     // this ordering matters
-    mouse: PanToMouseSystem,
+    mouse: TankMouseSystem,
     keyb: KeyboardMovementSystem,
     mvmt: MovementSystem,
     // render goes last
@@ -34,7 +34,7 @@ pub const Systems = extern struct {
     }
 };
 
-pub const PanToMouseSystem = struct {
+pub const TankMouseSystem = struct {
     const Self = @This();
     pub fn update(self: *const Self, game: *main.Game) !void {
         _ = self;
@@ -43,8 +43,9 @@ pub const PanToMouseSystem = struct {
         const mouse_pos = rl.getMousePosition();
         for (ents) |ent| {
             const trans: *Components.TransformObj = comps.trans.getPtr(ent) orelse continue;
-            // this is a special case of directly setting derived
-            trans.setRot(std.math.atan2(f32, trans.derived.pos.y - mouse_pos.y, trans.derived.pos.x - mouse_pos.x));
+            if (trans.dirty) continue; // ignore if dirty
+            const wt = trans.getWorld();
+            trans.setRot(std.math.atan2(f32, wt.pos.y - mouse_pos.y, wt.pos.x - mouse_pos.x));
         }
     }
 };

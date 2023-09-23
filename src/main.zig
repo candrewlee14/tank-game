@@ -74,7 +74,10 @@ pub fn main() anyerror!void {
     try game.components.keyb.add(tank, {});
 
     const barrel = try game.ents.create();
-    try game.components.trans.add(barrel, .{ .local = .{ .pos = .{ .x = 0, .y = 0 } }, .derived_rot = false });
+    try game.components.trans.add(barrel, .{
+        .local = .{ .pos = .{ .x = 0, .y = 0 } },
+        .derived_rot = false,
+    });
     try game.components.mouse.add(barrel, {});
     try game.components.parent.add(barrel, tank);
     try game.components.tex.add(barrel, game.atlas.getInfo("specialBarrel1_outline.png"));
