@@ -12,7 +12,9 @@ pub const Systems = extern struct {
     mvmt: MovementSystem,
     // render goes last
     der_trans: DerivedTransformSystem,
+    spawner: SpawnerSystem,
     rndr: RenderSystem,
+    timed_destr: TimedDestructionSystem,
 
     pub fn init(comp: *Components) !Systems {
         _ = comp;
@@ -34,6 +36,21 @@ pub const Systems = extern struct {
     }
 };
 
+pub const TimedDestructionSystem = struct {
+    const Self = @This();
+    pub fn update(self: *const Self, game: *main.Game) !void {
+        _ = self;
+        const comps = &game.components;
+        const ents = comps.time_destr.data.keys();
+        for (ents) |ent| {
+            const timed_destr: Components.TimeDestruct = comps.time_destr.get(ent) orelse continue;
+            if (timed_destr.lifetime + timed_destr.birth_time < rl.getTime()) {
+                try timed_destr.destroy_fn(game, ent);
+            }
+        }
+    }
+};
+
 pub const TankMouseSystem = struct {
     const Self = @This();
     pub fn update(self: *const Self, game: *main.Game) !void {
@@ -50,16 +67,35 @@ pub const TankMouseSystem = struct {
     }
 };
 
+pub const SpawnerSystem = struct {
+    const Self = @This();
+    pub fn update(self: *const Self, game: *main.Game) !void {
+        _ = self;
+        const comps = &game.components;
+        const ents = comps.spawner.data.keys();
+        const time = rl.getTime();
+        for (ents) |ent| {
+            const spawner: *Components.Spawner = comps.spawner.getPtr(ent).?;
+            if (!spawner.is_active) continue;
+            if (time - spawner.last_spawn < spawner.spawn_rate) continue;
+            spawner.last_spawn = time;
+            const spawn = try spawner.factory_fn(game, ent);
+            try comps.spawn_src.add(spawn, ent);
+            if (spawner.set_inactive_on_spawn) spawner.is_active = false;
+        }
+    }
+};
+
 pub const MovementSystem = struct {
     const Self = @This();
 
     pub fn update(self: *const Self, game: *main.Game) !void {
         _ = self;
         const comps = &game.components;
-        const ents = comps.trans.data.keys();
+        const ents = comps.vel.data.keys();
         for (ents) |ent| {
-            const trans = comps.trans.getPtr(ent).?;
-            const vel = comps.vel.get(ent) orelse continue;
+            const vel = comps.vel.get(ent).?;
+            const trans = comps.trans.getPtr(ent).?; // anything with vel should have a trans comp
             trans.moveBy(vel);
         }
     }
@@ -94,12 +130,28 @@ pub const RenderSystem = struct {
 
             const s_w: f32 = tex_info.width * tfm.scale.x;
             const s_h: f32 = tex_info.height * tfm.scale.y;
+            var origin = tex_info.origin;
+            origin.x *= tfm.scale.x;
+            origin.y *= tfm.scale.y;
+            // std.log.info("origin: {d} {d}", .{ origin.x, origin.y });
+            // rl.drawRectanglePro(
+            //     .{ .x = tfm.pos.x, .y = tfm.pos.y, .width = s_w, .height = s_h },
+            //     origin,
+            //     std.math.radiansToDegrees(f32, tfm.rot - tex_info.rot_offset),
+            //     rl.Color.sky_blue,
+            // );
             game.atlas.tex.drawPro(
                 tex_info.getSourceRect(),
                 .{ .x = tfm.pos.x, .y = tfm.pos.y, .width = s_w, .height = s_h },
-                tex_info.origin,
+                origin,
                 std.math.radiansToDegrees(f32, tfm.rot - tex_info.rot_offset),
                 rl.Color.white,
+            );
+            rl.drawCircle(
+                @intFromFloat(tfm.pos.x),
+                @intFromFloat(tfm.pos.y),
+                2,
+                rl.Color.sky_blue,
             );
         }
     }

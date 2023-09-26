@@ -15,6 +15,8 @@ speed: ecs.ComponentManager(f32),
 rot_speed: ecs.ComponentManager(f32),
 parent: ecs.ComponentManager(ecs.ID),
 spawn_src: ecs.ComponentManager(ecs.ID),
+spawner: ecs.ComponentManager(Spawner),
+time_destr: ecs.ComponentManager(TimeDestruct),
 
 pub fn init(alloc: std.mem.Allocator) !Self {
     var self: Self = undefined;
@@ -29,6 +31,24 @@ pub fn deinit(self: *Self) void {
         @field(self, field.name).deinit();
     }
 }
+
+pub const TimeDestruct = struct {
+    birth_time: f64,
+    lifetime: f64,
+    destroy_fn: *const fn (*main.Game, ecs.ID) anyerror!void,
+    pub fn init(lifetime: f64, destroy_fn: *const fn (*main.Game, ecs.ID) anyerror!void) TimeDestruct {
+        return .{ .birth_time = rl.getTime(), .lifetime = lifetime, .destroy_fn = destroy_fn };
+    }
+};
+
+pub const Spawner = struct {
+    /// Limit to spawn frequency
+    spawn_rate: f64,
+    last_spawn: f64,
+    factory_fn: *const fn (*main.Game, ecs.ID) anyerror!ecs.ID,
+    is_active: bool = false,
+    set_inactive_on_spawn: bool = false,
+};
 
 pub const Transform2D = struct {
     pos: rl.Vector2,
@@ -118,10 +138,19 @@ pub const TransformObj = struct {
         }
         const p_world = plocal.getWorld();
         self.derived = self.local;
-        // add pos
+        // add local pos
+        // also apply scale, so 1 unit is 1 pixel * parent scale
+        // also rotate relative to parent
         if (self.derived_pos) {
-            self.derived.pos.x += p_world.pos.x;
-            self.derived.pos.y += p_world.pos.y;
+            const rot = p_world.rot;
+            const x = self.derived.pos.x;
+            const y = self.derived.pos.y;
+            const px = p_world.pos.x;
+            const py = p_world.pos.y;
+            const sx = p_world.scale.x;
+            const sy = p_world.scale.y;
+            self.derived.pos.x = x * sx * @cos(rot) - y * sy * @sin(rot) + px;
+            self.derived.pos.y = x * sx * @sin(rot) + y * sy * @cos(rot) + py;
         }
         // mul scale
         if (self.derived_scale) {

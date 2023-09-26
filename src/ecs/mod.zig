@@ -22,8 +22,8 @@ pub const EntityManager = struct {
         self.next_id += 1;
         return id;
     }
-    pub fn markPurge(self: *Self, ent: ID) void {
-        self.entities.putAssumeCapacity(ent, true);
+    pub fn markPurge(self: *Self, ent: ID) !void {
+        try self.entities.put(ent, true);
     }
     /// This only gets called after all other purges are called,
     /// So no updates operate on now-missing data.
@@ -67,8 +67,8 @@ pub fn ComponentManager(comptime ComponentT: type) type {
         pub fn get(self: *const Self, ent: ID) ?ComponentT {
             return self.data.get(ent);
         }
-        pub fn remove(self: *Self, ent: ID) void {
-            self.data.swapRemove(ent);
+        pub fn remove(self: *Self, ent: ID) bool {
+            return self.data.swapRemove(ent);
         }
     };
 }
